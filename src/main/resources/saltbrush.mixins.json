@@ -1,13 +1,19 @@
 {
-    "required": true,
-    "minVersion": "0.8",
-    "package": "io.github.dopadream.saltbrush.mixin",
-    "compatibilityLevel": "JAVA_17",
-    "mixins": [],
-    "client": [
-        "TitleScreenMixin"
-    ],
-    "injectors": {
-        "defaultRequire": 1
-    }
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.dopadream.saltbrush.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChunkBuildBuffersMixin",
+    "ChunkBuilderMeshingTaskMixin",
+    "DefaultMaterialsMixin",
+    "RenderRegionManagerMixin",
+    "ShaderChunkRendererMixin",
+    "SodiumWorldRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

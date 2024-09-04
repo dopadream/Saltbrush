@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "quilt_loader": {
-        "group": "${group}",
+        "group": "io.github.dopadream",
         "id": "saltbrush",
         "version": "${version}",
         "metadata": {
