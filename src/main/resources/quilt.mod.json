@@ -6,7 +6,7 @@
         "version": "${version}",
         "metadata": {
             "name": "Saltbrush",
-            "description": "Splits sodium's shaders into separate passes for more core shader versatility ",
+            "description": "Splits sodium's shaders into separate passes for more core shader versatility",
             "contributors": {
                 "dopadream": "Owner"
             },
