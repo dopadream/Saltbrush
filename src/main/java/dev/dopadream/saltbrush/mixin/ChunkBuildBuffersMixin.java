@@ -1,7 +1,7 @@
-package io.github.dopadream.saltbrush.mixin;
+package dev.dopadream.saltbrush.mixin;
 
 
-import io.github.dopadream.saltbrush.util.CutoutTerrainRenderPass;
+import dev.dopadream.saltbrush.util.CutoutTerrainRenderPass;
 import it.unimi.dsi.fastutil.objects.Reference2ReferenceOpenHashMap;
 import net.caffeinemc.mods.sodium.client.model.quad.properties.ModelQuadFacing;
 import net.caffeinemc.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers;

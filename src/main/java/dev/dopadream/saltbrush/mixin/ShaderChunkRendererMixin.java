@@ -1,6 +1,6 @@
-package io.github.dopadream.saltbrush.mixin;
+package dev.dopadream.saltbrush.mixin;
 
-import io.github.dopadream.saltbrush.util.CutoutTerrainRenderPass;
+import dev.dopadream.saltbrush.util.CutoutTerrainRenderPass;
 import net.caffeinemc.mods.sodium.client.gl.shader.GlProgram;
 import net.caffeinemc.mods.sodium.client.render.chunk.ShaderChunkRenderer;
 import net.caffeinemc.mods.sodium.client.render.chunk.shader.ChunkFogMode;
