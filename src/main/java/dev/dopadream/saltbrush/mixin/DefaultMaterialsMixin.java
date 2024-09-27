@@ -1,11 +1,8 @@
-package io.github.dopadream.saltbrush.mixin;
+package dev.dopadream.saltbrush.mixin;
 
 
-import io.github.dopadream.saltbrush.util.CutoutTerrainRenderPass;
-import net.caffeinemc.mods.sodium.client.render.chunk.terrain.DefaultTerrainRenderPasses;
 import net.caffeinemc.mods.sodium.client.render.chunk.terrain.material.DefaultMaterials;
 import net.caffeinemc.mods.sodium.client.render.chunk.terrain.material.Material;
-import net.caffeinemc.mods.sodium.client.render.chunk.terrain.material.parameters.AlphaCutoffParameter;
 import net.minecraft.client.renderer.RenderType;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
@@ -13,7 +10,7 @@ import org.spongepowered.asm.mixin.Unique;
 
 import java.util.Map;
 
-import static io.github.dopadream.saltbrush.Saltbrush.CUTOUT_NON_MIPPED;
+import static dev.dopadream.saltbrush.Saltbrush.CUTOUT_NON_MIPPED;
 import static net.caffeinemc.mods.sodium.client.render.chunk.terrain.material.DefaultMaterials.*;
 
 @Mixin(DefaultMaterials.class)

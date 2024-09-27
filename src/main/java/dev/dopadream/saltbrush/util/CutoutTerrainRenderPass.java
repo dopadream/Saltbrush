@@ -1,4 +1,4 @@
-package io.github.dopadream.saltbrush.util;
+package dev.dopadream.saltbrush.util;
 
 import net.caffeinemc.mods.sodium.client.render.chunk.terrain.DefaultTerrainRenderPasses;
 import net.caffeinemc.mods.sodium.client.render.chunk.terrain.TerrainRenderPass;
